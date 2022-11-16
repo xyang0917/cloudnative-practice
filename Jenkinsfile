@@ -45,7 +45,7 @@ import java.text.SimpleDateFormat;
 	    stage('Build with Kaniko') {
 	      steps {
 	        container('kaniko') {
-	          sh '/kaniko/executor -f `pwd`/Dockerfile -c `pwd`/src --cache=true \
+	          sh '/kaniko/executor -f `pwd`/httpserver/Dockerfile -c `pwd`/httpserver --cache=true \
 	                  --destination=registry.cn-hongkong.aliyuncs.com/yangxin/httpserver:${DATED_GIT_HASH} \
 	                  --insecure \
 	                  --skip-tls-verify  \
