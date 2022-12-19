@@ -9,6 +9,6 @@ entries:
     name: httpserver
     type: application
     urls:
-    - https://github.com/xyang0917/cloudnative-practice/blob/main/module10/helm/repo/stable/httpserver-0.1.0.tgz
+    - https://raw.githubusercontent.com/xyang0917/cloudnative-practice/main/module10/helm/repo/stable/httpserver-0.1.0.tgz
     version: 0.1.0
 generated: "2022-12-19T20:28:20.298423+08:00"
